@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f7fb;
+}
+
+.main {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+p {
+  color: gray;
+  font-size: 18px;
+}
+
+/* ✅ VIP DROPDOWN FIX */
+.dropdown-box {
+  margin: 30px auto;
+  width: 320px;
+}
+
+select {
+  width: 100%;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+
+  /* Fix Text Visibility */
+  color: white;
+  background: linear-gradient(to right, purple, blue);
+
+  outline: none;
+  appearance: none;
+}
+
+/* Dropdown Options Fix */
+select option {
+  color: black;
+  background: white;
+  font-size: 16px;
+}
+
+/* Cards Layout */
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+.card h2 {
+  margin: 15px 0 8px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Price + Rating */
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.price {
+  background: teal;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+}
+
+.rating {
+  background: orange;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 25px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Filters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="main">
+
+    <h1>Product Filters</h1>
+    <p>Choose a filter</p>
+
+    <!-- Dropdown Filter -->
+    <div class="dropdown-box">
+      <select id="filter">
+        <option value="all">All Products</option>
+        <option value="cars">Cars</option>
+        <option value="bikes">Bikes</option>
+        <option value="mobiles">Mobiles</option>
+        <option value="cameras">Cameras</option>
+      </select>
+    </div>
+
+    <!-- Product Cards -->
+    <div class="products">
+
+      <div class="card" data-category="cars">
+        <img src="https://via.placeholder.com/250">
+        <h2>Tesla Model S</h2>
+        <p>Luxury electric car with premium comfort.</p>
+        <div class="info">
+          <span class="price">Rs 1000</span>
+          <span class="rating">⭐ 4.5</span>
+        </div>
+      </div>
+
+      <div class="card" data-category="bikes">
+        <img src="https://via.placeholder.com/250">
+        <h2>Yamaha R1</h2>
+        <p>Super sports bike built for speed lovers.</p>
+        <div class="info">
+          <span class="price">Rs 700</span>
+          <span class="rating">⭐ 4.7</span>
+        </div>
+      </div>
+
+      <div class="card" data-category="mobiles">
+        <img src="https://via.placeholder.com/250">
+        <h2>iPhone 15 Pro</h2>
+        <p>Flagship mobile with best camera quality.</p>
+        <div class="info">
+          <span class="price">Rs 2000</span>
+          <span class="rating">⭐ 4.9</span>
+        </div>
+      </div>
+
+      <div class="card" data-category="cameras">
+        <img src="https://via.placeholder.com/250">
+        <h2>Canon DSLR</h2>
+        <p>Professional camera for sharp photography.</p>
+        <div class="info">
+          <span class="price">Rs 1500</span>
+          <span class="rating">⭐ 4.6</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
