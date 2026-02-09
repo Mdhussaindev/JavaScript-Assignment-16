@@ -94,6 +94,18 @@ select {
   transform: scale(1.08);
 }
 
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+
+.card:hover h3 {
+  color: #4a00e0;
+}
+
 
 .info {
   display: flex;
